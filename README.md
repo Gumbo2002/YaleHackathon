@@ -27,4 +27,14 @@ Given our analysis, the distinguishability of quantum computers based upon rando
 
 ## Usage
 
-Download the repository and run entropy.py to replicate our graphs. To obtain new data, run DataCollectionDiffP or DataCollectionDiffN depending on whether you want n-qubit dependence or channel error respectively. "main.py" is not implemented but can be used to calculate the "categorical-crossentropy" which is a general measure of entropy. 
+Download the repository and input the following command into your terminal in your preferred coding environment: 
+
+```
+pip install -r requirements.txt
+```
+or 
+```
+conda install --yes --file requirements. txt
+```
+
+run entropy.py to replicate our graphs. To obtain new data, run DataCollectionDiffP or DataCollectionDiffN depending on whether you want n-qubit dependence or channel error respectively. "main.py" is not implemented but can be used to calculate the "categorical-crossentropy" which is a general measure of entropy. 
