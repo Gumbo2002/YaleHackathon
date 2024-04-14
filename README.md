@@ -27,4 +27,4 @@ Given our analysis, the distinguishability of quantum computers based upon rando
 
 ## Usage
 
-Download the repository; go to entropy.py and modify line __ to the name of the data directory of interest. "data/" corresponds to data generated for entangled circuits with differing width. "data2/" corresponds to data generated for quantum channels with differing error rates. "main.py" is not implemented but can be used to calculate the "categorical-crossentropy" which is a general measure of entropy. 
+Download the repository and run entropy.py to replicate our graphs. To obtain new data, run DataCollectionDiffP or DataCollectionDiffN depending on whether you want n-qubit dependence or channel error respectively. "main.py" is not implemented but can be used to calculate the "categorical-crossentropy" which is a general measure of entropy. 
